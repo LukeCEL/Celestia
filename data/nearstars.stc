@@ -579,7 +579,7 @@ Barycenter 1475 "Gliese 15:ADS 246:Groombridge 34"
 	}
 }
 
-"DX Cnc:Gliese 1111:Giclas 51-15"
+"DX Cnc:GJ 1111:Giclas 51-15"
 {
 	RA 127.45563677
 	Dec 26.77600744
@@ -659,7 +659,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	AppMag 3.50
 }
 
-"Gliese 1061:Luyten 372-58"
+"GJ 1061:Luyten 372-58"
 {
 	RA 53.99874864
 	Dec -44.51270146
@@ -972,7 +972,7 @@ Barycenter "Gliese 473:Wolf 424"
 	AppMag 9.15
 }
 
-"Gliese 3622:LP 731-58"
+"GJ 3622:LP 731-58"
 {
 	RA 162.05255937
 	Dec -11.33600262
@@ -1003,23 +1003,23 @@ Barycenter "Gliese 473:Wolf 424"
 # "The Solar Neighborhood. XXXVII: The Mass-Luminosity Relation for Main-sequence
 # M Dwarfs"
 # http://iopscience.iop.org/article/10.3847/0004-6256/152/5/141/meta
-Barycenter "Gliese 1245" # orbit of A & B components unknown
+Barycenter "GJ 1245" # orbit of A & B components unknown
 {
 	RA 298.477317   # mass ratio (0.111:0.076):0.10
 	Dec 44.415377
 	Distance 15.268
 }
 
-Barycenter "Gliese 1245 A"
+Barycenter "GJ 1245 A"
 {
 	RA 298.47700882
 	Dec 44.41426155
 	Distance 15.3029 # 213.1329 +/- 0.5737 mas
 }
 
-"V1581 Cyg:Gliese 1245 Aa"
+"V1581 Cyg:GJ 1245 Aa"
 {
-	OrbitBarycenter "Gliese 1245 A"
+	OrbitBarycenter "GJ 1245 A"
 	SpectralType "M5.5V"
 	AppMag 13.46
 
@@ -1034,9 +1034,9 @@ Barycenter "Gliese 1245 A"
 	}
 }
 
-"Gliese 1245 Ab"
+"GJ 1245 Ab"
 {
-	OrbitBarycenter "Gliese 1245 A"
+	OrbitBarycenter "GJ 1245 A"
 	SpectralType "M7.5V"
 	AppMag 16.75
 
@@ -1051,7 +1051,7 @@ Barycenter "Gliese 1245 A"
 	}
 }
 
-"Gliese 1245 B"
+"GJ 1245 B"
 {
 	RA 298.47974513
 	Dec 44.41504008
@@ -1060,7 +1060,7 @@ Barycenter "Gliese 1245 A"
 	AppMag 13.99
 }
 
-"Gliese 3618:Luyten 143-23"
+"GJ 3618:Luyten 143-23"
 {
 	RA 161.08847255
 	Dec -61.20979537
@@ -1069,7 +1069,7 @@ Barycenter "Gliese 1245 A"
 	AppMag 13.920
 }
 
-"Gliese 1002"
+"GJ 1002"
 {
 	RA 1.67998846
 	Dec -7.53806229
