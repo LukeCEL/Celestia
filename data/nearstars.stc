@@ -16,6 +16,13 @@
 # Other sources are appear as comments for individual star 
 # systems.
 
+# Because the magnitude system breaks down for extremely dim stars (such as late T
+# or Y dwarfs), they have been given an arbitrary but extremely low AbsMag value
+# of 50, and their textures have been set to an exoplanet night texture - stage 5 for
+# brown dwarfs of spectral type T7 and later, and stage 4 for brown dwarfs of spectral
+# type Y. Their radii have also been set to a value around ~1 Jupiter radius, if their
+# radii are not known.
+
 # Orbits are taken from the Sixth Catalog of Orbits of Visual Binary Stars
 # (http://ad.usno.navy.mil/wds/orb6.html), with other sources in the comments
 # below.
@@ -162,8 +169,10 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 	RA 133.795125
 	Dec -7.2451389
 	Distance 7.264 # 449 +/- 8 mas
+	Texture "exo-class4night.*"
 	SpectralType "Y2"
-	AbsMag 38 # for approximate radius in Celestia
+	Radius 60000 # approx.
+	AbsMag 50 # extremely low
 }
 
 # Parallax from Weinberger, et al. (2016), AJ 152 (1), 24
@@ -853,10 +862,10 @@ Barycenter 30920 "Gliese 234:Ross 614"
 	RA 110.6161250
 	Dec -5.6753056
 	Distance 13.433 # 242.8 +/- 2.40 mas
-	Texture "exo-class4night.*"
+	Texture "exo-class5night.*"
 	SpectralType "T9V"
 	Temperature 505
-	Radius 75000 # approx.
+	Radius 60000 # approx.
 	AbsMag 50 # extremely low
 }
 
@@ -1387,10 +1396,10 @@ Barycenter "GJ 1116"  # orbit of A & B unknown
 # unresolved binary; separation and orbit unknown
 "2MASS 0939-2448 A:2MASS J09393548-2448279 A"
 {
-	Texture "exo-class4night.*"
 	RA 144.897865
 	Dec -24.807761
 	Distance 17.414 # 187.30 +/- 4.60 mas
+	Texture "exo-class5night.*"
 	SpectralType "T8V"
 	Temperature 600
 	Radius 60000 # approx.
@@ -1399,10 +1408,10 @@ Barycenter "GJ 1116"  # orbit of A & B unknown
 
 "2MASS 0939-2448 B:2MASS J09393548-2448279 B"
 {
-	Texture "exo-class4night.*"
 	RA 144.897885
 	Dec -24.807761
 	Distance 17.414 # 187.30 +/- 4.60 mas
+	Texture "exo-class5night.*"
 	SpectralType "T8V"
 	Temperature 600
 	Radius 60000 # approx.
@@ -1489,10 +1498,10 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 # http://iopscience.iop.org/0004-637X/848/2/83/
 "2MASS 1114-2618:2MASS J11145133-2618235"
 {
-	Texture "exo-class4night.*"
 	RA 168.713904
 	Dec -26.306544
 	Distance 18.45 # 176.8 +/- 7.0 mas
+	Texture "exo-class5night.*"
 	SpectralType "T7.5V"
 	Temperature 680
 	Radius 64000
@@ -1508,10 +1517,10 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 # https://academic.oup.com/mnras/article/463/2/2202/2892466
 "WISE 1741+2553:WISE J174124.25+255319.6"
 {
-	Texture "exo-class4night.*"
 	RA 265.352586
 	Dec 25.892878
 	Distance 18.53 # 176 +/- 25 mas
+	Texture "exo-class5night.*"
 	SpectralType "T9V"
 	Temperature 620
 	Radius 60000 # approx.
@@ -1543,10 +1552,10 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 # http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
 "2MASS 0415-0935:2MASS J04151954-0935066"
 {
-	Texture "exo-class4night.*"
 	RA 63.8381022
 	Dec -9.5835266
 	Distance 18.62 # 175.2 +/- 1.7 mas
+	Texture "exo-class5night.*"
 	SpectralType "T8.0V"
 	Temperature 750
 	Radius 60000 # approx.
@@ -1684,10 +1693,10 @@ Barycenter 73182 "Gliese 570 BC"
 # http://iopscience.iop.org/article/10.1088/0004-637X/807/2/183/meta
 "Gliese 570 D:ADS 9446 D"
 {
-	Texture "exo-class4night.*"
 	RA 224.31233
 	Dec -21.36328
 	Distance 19.184
+	Texture "exo-class5night.*"
 	SpectralType "T8V"
 	Temperature 710
 	Radius 80000
@@ -1893,10 +1902,10 @@ Barycenter 84405 "36 Oph AB:Gliese 663 AB"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
 "WISE 1541-2250:WISE J1541-2250:WISEPA J154151.66-225025.2"
 {
-	Texture "exo-class4night.*"
 	RA 235.464061
 	Dec -22.840554
 	Distance 19.524 # 167.05 +/- 4.19 mas
+	Texture "exo-class4night.*"
 	SpectralType "Y1"
 	Temperature 350
 	Radius 69900
@@ -2560,7 +2569,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	RA 048.358100
 	Dec 78.128986
 	Distance 21.3 # 153 +/- 15 mas
-	Texture "exo-class4night.*"
+	Texture "exo-class5night.*"
 	SpectralType "T8.5V"
 	Temperature 651
 	Radius 61500
@@ -2924,7 +2933,7 @@ Modify 103096 # Gliese 809
 	RA 43.5328583
 	Dec 2.3989861
 	Distance 23.5 # 139 +/- 40 mas
-	Texture "exo-class4night.*"
+	Texture "exo-class5night.*"
 	SpectralType "T8V"
 	Temperature 500 # approx.
 	Radius 60000 # approx.
@@ -3479,6 +3488,7 @@ Barycenter "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119 B"
 	RA 169.66125400
 	Dec 31.42720000
 	Distance 28.4885
+	Texture "exo-class5night.*"
 	SpectralType "T8.5V"
 	Temperature 600 # approx.
 	Radius 60000 # approx.
