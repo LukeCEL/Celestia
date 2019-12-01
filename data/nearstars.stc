@@ -166,7 +166,6 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 	RA 133.795125
 	Dec -7.2451389
 	Distance 7.264 # 449 +/- 8 mas
-	Texture "exo-class4night.*"
 	SpectralType "Y2"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
@@ -798,7 +797,6 @@ Barycenter 110893 "Gliese 860:ADS 15972:Kruger 60"
 
 "DENIS 1048-3956:DENIS J104814.6-395606:RECONS 2"
 {
-	Texture "browndwarf.*"
 	RA 162.06072261
 	Dec -39.93523423
 	Distance 13.1932 # 247.2157 +/- 0.1236 mas
@@ -859,7 +857,6 @@ Barycenter 30920 "Gliese 234:Ross 614"
 	RA 110.6161250
 	Dec -5.6753056
 	Distance 13.433 # 242.8 +/- 2.40 mas
-	Texture "exo-class5night.*"
 	SpectralType "T9V"
 	Temperature 505
 	Radius 60000 # approx.
@@ -2353,7 +2350,6 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	Distance 20.9398 # 155.7590 +/- 0.0991 mas
 	SpectralType "M9.5Ve"
 	Radius 56000 # approx. for class
-	Texture "browndwarf.*"
 	AppMag 18.69
 }
 
